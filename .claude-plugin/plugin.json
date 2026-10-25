@@ -1,0 +1,8 @@
+{
+  "name": "forari",
+  "displayName": "Forari",
+  "version": "0.1.0",
+  "description": "Ari's sales toolkit: decks in his brand, writing in his voice, and a buyer's-eye review before anything goes out.",
+  "author": { "name": "César Camacho" },
+  "license": "MIT"
+}
