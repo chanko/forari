@@ -9,9 +9,33 @@ Interview Ari and turn his answers into the files the other Forari skills
 read. He's busy: one section at a time, a few questions per message, short
 answers are fine, and he can skip anything and come back later.
 
-Open with one line on what this is ("I'll ask about your week, your tools,
-your decks and how you write, about 15 minutes, and set everything up as we
-go"), then start.
+Open with one line on what this is ("I'll check what you already have, then
+ask about your week, your tools, your decks and how you write, about 15
+minutes, and set everything up as we go"), then start.
+
+## 0. What you already have
+
+Forari fills gaps. It never replaces something that already works for him.
+
+1. List the skills you can already use outside this folder (from his own
+   plugins and skills), with one line on what each does. Ask whether there
+   are others, or a folder where he keeps his prompts, templates and files.
+2. For each Forari skill (presenter, voice, reviewer), decide with him:
+   - **He already has one that does this:** keep his. Remove the Forari one
+     from this folder so the two never compete for the same request. If
+     his is missing something Forari's has (usually: saving his corrections
+     as rules), offer to add just that piece to his, through
+     Customize > Plugins > <his plugin> > Customize, and give him the exact
+     text to paste.
+   - **He has nothing for it:** keep the Forari one.
+   - **He doesn't need it:** remove it.
+3. If he has a folder with his material (templates, past decks, notes), point
+   the kept skills at it instead of copying files in, and write its location
+   into the skill's reference file. Tell him that only works where Claude can
+   reach that folder (in Cowork, with that folder open).
+4. Skip any later section whose skill was removed or is already covered by
+   his own. For the sections left, don't ask what his existing skills or
+   folder already answer.
 
 ## 1. Your week
 
@@ -23,8 +47,8 @@ Ask:
 - What do you already use Claude for, and where does it let you down?
 - If Claude could take one thing off your plate tomorrow, what would it be?
 
-Then pick the 2 or 3 tasks that come up most and that Claude can actually do
-with his tools. For each, propose a skill in one line ("**follow-up**: from
+Then pick the 2 or 3 tasks that come up most, that Claude can actually do
+with his tools, and that none of his existing skills already handles. For each, propose a skill in one line ("**follow-up**: from
 your call notes, writes the recap email in your voice and the CRM update")
 and ask which ones he wants. Write the ones he picks as
 `skills/<name>/SKILL.md`, following the shape of the existing skills: a
@@ -78,10 +102,12 @@ style guide.
 
 ## Wrapping up
 
-1. List anything still marked `{{FILL` and which skill it affects. Those
+1. Say what's in Forari now, what you removed because he already has it,
+   and any text he still has to paste into his own skills.
+2. List anything still marked `{{FILL` and which skill it affects. Those
    skills will ask for it when they need it, so it's fine to leave some.
-2. If you've been editing a downloaded folder (not an installed plugin), tell
+3. If you've been editing a downloaded folder (not an installed plugin), tell
    him to install it: in Finder, right-click the Forari folder > Compress, then
    Customize > Plugins > Add > Upload plugin and pick the zip.
-3. Tell him how to keep improving it: correct things as he goes, and save new
+4. Tell him how to keep improving it: correct things as he goes, and save new
    rules through Customize > Plugins > Forari > Customize.

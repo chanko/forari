@@ -23,8 +23,9 @@ nothing to pull or keep in sync.
    > Set up Forari in this folder. Read README.md, then follow
    > skills/onboarding/SKILL.md and interview me.
 
-3. **Answer its questions.** About 15 minutes: your week, your tools, your
-   decks and how you write. Have these handy:
+3. **Answer its questions.** About 15 minutes. It first checks which skills
+   you already have and keeps yours: Forari only adds what's missing. Then
+   your week, your tools, your decks and how you write. Have these handy:
    - your PowerPoint template (`.pptx` or `.potx`) and logo
    - 2 or 3 decks you're proud of
    - 10 to 15 things you wrote that sound like you (emails, follow-ups, posts)
