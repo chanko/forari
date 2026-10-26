@@ -51,6 +51,14 @@ To save rules into the plugin, open **Customize > Plugins > Forari > Customize**
 and say "add these rules to the voice skill" (or presenter). That opens a task
 where Claude edits the plugin for you. Your copy is yours, so change anything.
 
+## Guides
+
+Things that don't fit in a skill, written up so you (or your Claude) can
+follow them:
+
+- [Making a short promo video with Claude](guides/video.md): how the
+  StudioBloom video was made, what it cost, and a starter prompt.
+
 ## Adding more skills
 
 Each skill is a folder in `skills/` with a `SKILL.md`. In the Customize task,
