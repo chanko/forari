@@ -12,6 +12,7 @@ nothing to pull or keep in sync.
 | **presenter** | Builds decks (PowerPoint or PDF) in your brand: your template, fonts, colors and slide rules. |
 | **voice** | Writes emails, follow-ups and posts the way you write. Gets better every time you correct it. |
 | **reviewer** | Reads your email, deck or proposal as the buyer would, and tells you what to fix before you send it. |
+| **onboarding** | Interviews you once to set all of this up. Run it again any time ("redo my setup", "add a skill for my pre-call prep"). |
 
 ## Set it up (about 20 minutes, once)
 
@@ -19,16 +20,17 @@ nothing to pull or keep in sync.
    somewhere you'll find it, like `Documents/Forari`.
 2. **Open that folder in Cowork** and paste this:
 
-   > Set up the Forari plugin in this folder. Read README.md and every SKILL.md,
-   > then walk me through filling in everything marked `{{FILL}}`. I'll give you
-   > my deck template, brand details and writing samples as we go. Put files
-   > where the skills expect them. When we're done, tell me if anything is still
-   > blank.
+   > Set up Forari in this folder. Read README.md, then follow
+   > skills/onboarding/SKILL.md and interview me.
 
-3. **Hand it what it asks for.** Mainly:
+3. **Answer its questions.** About 15 minutes: your week, your tools, your
+   decks and how you write. Have these handy:
    - your PowerPoint template (`.pptx` or `.potx`) and logo
-   - your fonts and colors, and what you hate seeing on a slide
+   - 2 or 3 decks you're proud of
    - 10 to 15 things you wrote that sound like you (emails, follow-ups, posts)
+
+   It sets everything up as you go, and may add a skill or two for the things
+   you do by hand most.
 4. **Zip the folder.** In Finder, right-click the folder > **Compress**.
 5. **Install it.** In Claude: **Customize > Plugins > Add > Upload plugin**, and pick the zip.
 6. **Check it.** Start a chat and ask "which skills do you have from Forari?"
